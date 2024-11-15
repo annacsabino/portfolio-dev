@@ -108,6 +108,63 @@ section#portfolio {
   }
 }
 
+.contact {
+  padding: 8rem 0 12.5em;
+  background: url('../assets/images/Background_Intro.png') center / cover
+    no-repeat;
+
+  & .title-contact,
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    & span {
+      color: var(--color-purple);
+    }
+  }
+}
+
+.contact-group {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  & .button-contact {
+    display: flex;
+    width: 100%;
+    max-width: 25rem;
+    padding: 1.25rem;
+    justify-content: start;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--gray-300);
+    color: var(--gray-500);
+    text-decoration: none;
+    position: relative;
+    border: 1px solid var(--gray-300);
+    & .text-contact-button {
+      display: flex;
+      align-items: center;
+    }
+  }
+  & ::after {
+    content: '';
+    position: absolute;
+    right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('../assets/icons/arrowUpRight.svg') center / cover no-repeat;
+  }
+  & :hover {
+    background: var(--gray-200);
+    border: 1px solid var(--gray-400);
+  }
+}
+
 @media (max-width: 768px) {
   header {
     padding: 4rem 0 3.5rem;
