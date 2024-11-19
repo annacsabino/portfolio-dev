@@ -29,7 +29,7 @@ header {
     margin-bottom: 3.5rem;
   }
   & .subtitle span {
-    color: var(--color-red);
+    color: var(--color-purple);
     padding-bottom: 0.5rem;
   }
   & .title-lg {
@@ -121,7 +121,7 @@ section#portfolio {
     flex-direction: column;
     gap: 0.5rem;
     & span {
-      color: var(--color-purple);
+      color: var(--color-red);
     }
   }
 }
@@ -162,6 +162,9 @@ section#portfolio {
   & :hover {
     background: var(--gray-200);
     border: 1px solid var(--gray-400);
+  }
+  & img:hover {
+    border: none;
   }
 }
 
