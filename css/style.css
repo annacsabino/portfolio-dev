@@ -25,8 +25,20 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  & img {
+  & .image-avatar-wrapper {
+    position: relative;
     margin-bottom: 3.5rem;
+    & img:first-child {
+      margin-bottom: 5px;
+      border: 3px solid var(--gray-100);
+      outline: 2px solid var(--color-red);
+      border-radius: 250px;
+    }
+    & img:last-child {
+      position: absolute;
+      bottom: 0;
+      right: -8px;
+    }
   }
   & .subtitle span {
     color: var(--color-purple);
