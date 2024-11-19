@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-dev",
+  "version": "1.0.0",
+  "description": "Este repositório contém uma coleção de projetos de programação desenvolvidos durante o curso Full Stack da Rocketseat. Cada projeto explora diferentes tecnologias e conceitos fundamentais para a construção de aplicações web, abordando desde o frontend até o backend. O objetivo é consolidar o aprendizado e construir uma base sólida em desenvolvimento Full Stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.2.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
